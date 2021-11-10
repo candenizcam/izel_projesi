@@ -6,7 +6,8 @@ fun main(args: Array<String>) {
     //// yukarısı input
     // mahmut 12 candan 5ken 2.4 çıkarıcaksın
 
+    var bölüm: Double = (mahmut).toDouble() / (candan).toDouble()
 
     // Try adding program arguments at Run/Debug configuration
-    println("Program arguments: ${mahmut/candan}")
+    println("Program arguments: ${bölüm}")
 }
